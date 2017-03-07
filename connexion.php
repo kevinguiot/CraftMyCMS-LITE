@@ -1,6 +1,13 @@
 <?php
 include('include/init.php');
 
+//Déconnexion
+if(@$_GET['logout']=="1") {
+    session_destroy();
+    header('location: index.php');
+}
+
+
 //Si un formulaire est rempli
 if(!empty($_POST)) {
     
@@ -47,10 +54,14 @@ if(!empty($_POST)) {
 }
 
 //On affiche le formulaire de connexion à l'espace membre
-?>
-
-<form method="post">
+if(!connect()) { ?>
+    <form method="post">
     Pseudo: <input type="text" name="pseudo"><br>
     Mot de passe: <input type="password" name="password"><br>
     <input type="submit" value="Connexion">
-</form>
+    </form>
+<?php
+} else {
+    echo 'Vous êtes déjà connecté<br><a href="connexion.php?logout=1">Déconnexion</a>';
+}
+?>
