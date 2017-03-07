@@ -83,4 +83,5 @@ if(!empty($_GET['msg'])) {
 <?php
 echo '</div>';
 include 'include/menudroite.php';
+include('include/footer.php');
 ?>

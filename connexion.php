@@ -72,4 +72,5 @@ if(!connect()) { ?>
 
 echo '</div>';
 include('include/menudroite.php');
+include('include/footer.php');
 ?>
