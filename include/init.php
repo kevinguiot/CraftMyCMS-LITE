@@ -8,6 +8,11 @@ include 'config.inc.php';
 //On inclut les fonctions
 include 'functions.php';
 
+//Récupération de la date
+date_default_timezone_set('Europe/Paris');
+$date = date('d/m/Y');
+$heure = date('H:i:s');
+
 //On teste la connexion à la base de données
 try {
     $connexion = new PDO('mysql:host='.$host.';dbname='.$db.'; charset=utf8', $user, $password, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
