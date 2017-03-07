@@ -28,6 +28,14 @@ try {
         $prenom = $selectMembre['prenom'];
         $nom = $selectMembre['nom'];
         $rang = $selectMembre['rang'];
+        
+        //Déclarations de constante
+        DEFINE('ID', $selectMembre['id']);
+        DEFINE('PSEUDO', $selectMembre['pseudo']);
+        DEFINE('RANG', $selectMembre['rang']);
+        
+    } else {
+        DEFINE('RANG', 1);
     }
 } catch (PDOException $e) {
     echo 'Impossible de se connecter à la base de donnée';
