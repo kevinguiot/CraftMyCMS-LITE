@@ -53,6 +53,11 @@ if(!empty($_POST)) {
     }
 }
 
+include('include/header.php');
+
+echo '<div id="contenu">';
+echo '<div id="news">';
+
 //On affiche le formulaire de connexion à l'espace membre
 if(!connect()) { ?>
     <form method="post">
@@ -64,4 +69,7 @@ if(!connect()) { ?>
 } else {
     echo 'Vous êtes déjà connecté<br><a href="connexion.php?logout=1">Déconnexion</a>';
 }
+
+echo '</div>';
+include('include/menudroite.php');
 ?>

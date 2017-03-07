@@ -44,6 +44,11 @@ if(!empty($_POST)) {
     }
 }
 
+include('include/header.php');
+
+echo '<div id="contenu">';
+echo '<div id="news">';
+
 //Gestion des erreurs
 if(!empty($_GET['msg'])) {
     if($_GET['msg']=="ok") {
@@ -74,3 +79,8 @@ if(!empty($_GET['msg'])) {
         </tr>
     </table>
 </form>
+
+<?php
+echo '</div>';
+include 'include/menudroite.php';
+?>
