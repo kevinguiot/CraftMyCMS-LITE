@@ -1,4 +1,6 @@
 <?php
+//On prépare les sessions
+session_start();
 
 //On inclut le fichier de configuration
 include 'config.inc.php';
