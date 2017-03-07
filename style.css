@@ -1,0 +1,169 @@
+@font-face {
+    font-family: irika;
+    src: url('Inika-Regular.ttf');
+}
+
+html {
+    background: url('http://www.minecraft-france.fr/wp-content/uploads/2012/01/2012-01-13_035532.png') no-repeat center fixed;
+    background-size: 100% 100%;
+    font-family:irika;
+}
+
+body {
+    width:900px;
+    margin: 30px auto;
+}
+
+a {color:black; text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+/*===> MESSAGE D'ERREUR <===*/
+.warning_r {
+    background-color:#AA0303;
+}
+
+.warning_v {
+    background-color:green;
+}
+
+.warning_b {
+    background-color:#4897E1;
+}
+
+.warning_v, .warning_b, .warning_r {
+    border-radius:2px;
+    padding:10px;
+    color:white;
+    font-weight:bold;
+    font-size:12px;
+    margin:10px;
+}
+.warning_r a, .warning_v a, .warning_b a{
+  color:white;
+}
+
+.warning_r a:hover, .warning_v a:hover, .warning_b a:hover{
+  color:white;
+}
+
+
+#wrapper {
+    box-shadow:1px 1px 12px #525252;
+    border-radius:20px;
+}
+.gradient {
+    background: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(#aaeeff),
+        to(#3399cc)
+    );
+}
+
+#title {
+    color:white;
+    font-size:60px;
+    text-shadow:1px 1px 12px #525252;
+    margin:30px;
+    text-align: center;
+}
+
+#header {
+    padding:10px 30px 10px 30px;
+    border-radius:20px 20px 0px 0px;
+}
+#header a {color:white; text-decoration:none; padding:10px; font-weight:bold; margin: 0px;}
+#header a:hover {background: rgba(0,0,0,0.10);} 
+
+#footer a {color:white;}
+
+#contenu {
+    padding:10px;
+    background-color:#F7F7F7;
+}
+
+#news {
+    float: left;
+    width:570px;
+}
+
+#sidebar {
+    float:right;
+    width:300px;
+}
+
+.widget {
+    background-color:white;
+    margin:10px 10px 20px 10px;
+    box-shadow:0 1px 4px rgba(0,0,0,0.1);
+}
+
+.widget h3 {
+    padding:5px;
+    margin: 0px;
+    border-radius:5px 5px 0px 0px;
+    color:white;
+}
+
+.widget_text {
+    padding:10px;
+}
+
+.connexion input[type=text],.connexion input[type=password] {
+    font-weight:200;
+    font-size:24px;
+    line-height:1;
+    width:100%;
+    padding:3px;
+    margin: 2px 6px 16px 0;
+    border:1px solid #E5E5E5;
+    background: #FBFBFB;
+    outline: none;
+    font-family:irika;
+}
+
+input[type=submit] {
+    text-decoration: none;
+    line-height: 13px;
+    padding:3px 8px;
+    cursor:pointer;
+    border-width:1px;
+    border-style:solid;
+    box-sizing:content-box;
+    margin-right:0px;
+    color:white;
+    font-family:irika;
+    font-weight:bold;
+    border-radius:8px;
+}
+
+.connexion input[type=submit]:active {
+    box-shadow:0 1px 4px rgba(0,0,0,0.1) inset;
+}
+
+.widget_text.social {
+    text-align: center;
+}
+
+.widget_text.social img {
+    margin:5px 8px;
+    width:60px;
+}
+.widget_text.social img:hover {
+    opacity: 0.9;
+}
+
+.news_content {
+    background-color:white;
+    margin:10px 10px 20px 10px;
+    padding:10px;
+    box-shadow:0 1px 4px rgba(0,0,0,0.1);
+}
+
+#footer {
+    padding:10px 30px;
+    text-align: center;
+    border-radius:0px 0px 20px 20px;
+    color:white;
+    font-weight:bold;
+}
