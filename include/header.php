@@ -10,7 +10,7 @@
 <body>
     <div id="title">CraftMyCMS</div>
     <div id="wrapper">
-        <div id="header"">
+        <div id="header" class="gradient">
             <a href="index.php">Accueil</a>
             <a href="#">Rejoindre</a>
             <a href="connexion.php">Connexion</a>
