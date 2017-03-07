@@ -43,6 +43,16 @@ if(!empty($_POST)) {
         header('location: inscription.php?msg=erreur');
     }
 }
+
+//Gestion des erreurs
+if(!empty($_GET['msg'])) {
+    if($_GET['msg']=="ok") {
+        echo 'Votre compte a bien été créé';
+    }
+    if($_GET['msg']=="erreur") {
+        echo 'Ce pseudo ou cette adresse e-mail sont déjà utilisés';
+    }
+}
 ?>
 
 <form method="post">
