@@ -20,13 +20,39 @@
         <?php } else { ?>
         <h3 class="gradient">Espace membre</h3>
         <div class="widget_text">
-            Bonjour pseudo,
+            Bonjour,<br>
+            <strong><?php echo PSEUDO; ?></strong><br>
+            (<?php
+                if(RANG == 3) {
+                    echo 'Administrateur';
+                } elseif(RANG == 2) {
+                    echo 'Modérateur';
+                } else {
+                    echo 'Membre';
+                }
+                
+                ?>)<br>
             <ul>
                 <li><a href="compte.php">Modifier vos informations</a></li>
                 <li><a href="connexion.php?logout=1">Déconnexion</a></li>
             </ul>
         </div>
-        <?php } ?>
+        <?php  
+            //Si on est administrateur
+            if(RANG == 3) { ?>
+        <h3 class="gradient">Espace administration</h3>
+        <div class="widget_text">
+            <ul>
+                <li><a href="/lite/admin/?tab=news">Editer les news</a></li>
+                <li><a href="/lite/admin/?tab=membres">Gérer les membres</a></li>
+                <li><a href="/lite/admin/?tab=reglement">Editer le règlement</a></li>
+                <li><a href="/lite/admin/?tab=site">Configurer le site</a></li>
+            </ul>
+        </div>
+        <?php
+            }
+            }
+            ?>
     </div>
     <div class="widget">
         <div class="widget_text social">
