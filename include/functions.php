@@ -35,4 +35,10 @@ function getUser($avant, $info, $apres) {
     return $valeurDemandee;
 }
 
+//Fonction pour protéger les valeurs envoyées
+function secure($text) {
+    $text = htmlspecialchars($text, ENT_QUOTES);
+    
+    return $text;
+}
 ?>
