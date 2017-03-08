@@ -14,7 +14,7 @@
             <a href="index.php">Accueil</a>
             <a href="#">Rejoindre</a>
             <a href="connexion.php">Connexion</a>
-            <a href="#">Support</a>
+            <a href="support.php">Support</a>
             <a href="#">Règlement</a>
             <a href="#">Contact</a>
         </div>
