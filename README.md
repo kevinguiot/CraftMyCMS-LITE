@@ -2,7 +2,7 @@
 
 CraftMyCMS LITE est un CMS pour serveur Minecraft. 
 
-> Un système de gestion de contenu ou SGC (content management system ou CMS en anglais) est une famille de logiciels destinés > à la conception et à la mise à jour dynamique de sites Web ou d'applications multimédia. 
+> Un système de gestion de contenu ou SGC (content management system ou CMS en anglais) est une famille de logiciels destinés  à la conception et à la mise à jour dynamique de sites Web ou d'applications multimédia. 
 
 ## Fonctionnalités présentes
 
