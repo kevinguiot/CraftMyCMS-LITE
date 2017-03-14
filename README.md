@@ -17,6 +17,7 @@ CraftMyCMS LITE est un CMS pour serveur Minecraft.
 Vous pouvez retrouver tout le développement du CMS via une playlist YouTube qui regroupe les vidéos de conception. Les vidéos sont amateurs et peuvent permettrent aux visiteurs d'acquérir certaines notions de développement web.<br>
 * [Accedez à la playlist](https://www.youtube.com/playlist?list=PLg7FNlvVE7nzEKCenp2UgLoFmE8d95zSY)
 
+<img src="http://www.icone-png.com/png/6/6172.png">
 
 ## Liens utiles
 * [Site internet du développeur](http://www.kevinguiot.fr/)
