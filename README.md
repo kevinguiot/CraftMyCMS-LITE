@@ -21,5 +21,5 @@ Vous pouvez retrouver tout le développement du CMS via une playlist YouTube qui
 
 ## Liens utiles
 * [Site internet du développeur](http://www.kevinguiot.fr/)
-* [Site internet officiel](https://www.craftmycms.fr/)
+* [Site internet officiel](http://www.craftmycms.fr/)
 * [Chaîne Youtube CraftMyCMS](https://www.youtube.com/user/CraftMyCMSFR)
